@@ -1,13 +1,27 @@
 # Commands
 
+Initialize environment
+
 ```sh
-go run main.go
+go mod init xp-gorillamux-cassandra
+```
+
+Build
+
+```sh
+go build
+```
+
+Run server
+
+```sh
+go run .
 ```
 
 #### Run a container from the image
 
 ```sh
-docker run -p 8080:8080 xp-micro-gorillamux
+docker run -p 8080:8080 xp-gorillamux-cassandra
 ```
 
 #### Install Cassandra via Helm

@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: xp-micro-gorillamux-configmap
+  name: xp-gorillamux-cassandra-configmap
 data:
   CASSANDRA_HOSTS: "xp-cassandra.default.svc.cluster.local:9042"
   CASSANDRA_KEYSPACE: "employeedb"

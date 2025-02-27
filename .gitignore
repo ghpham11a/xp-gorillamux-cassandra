@@ -36,3 +36,5 @@ go.sum
 # Build directories
 bin/
 build/
+
+xp-gorillamux-cassandra
